@@ -1,5 +1,5 @@
 :root{--bg:#ECEEEC;--card:#FFFFFF;--ink:#1A1A1A;--sub:#555;--line:rgba(0,0,0,.08);--accent:#2F6FED;--sky:#D9E3EC}
-@media (prefers-color-scheme:dark){:root{--bg:#18191B;--card:#232427;--ink:#EDEDED;--sub:#A9A9A9;--line:rgba(255,255,255,.1);--sky:#2A333C}}
+:root{color-scheme:light only}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Pretendard,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;line-height:1.7;letter-spacing:-0.2px}
@@ -26,3 +26,5 @@ th{color:var(--sub);font-weight:600;white-space:nowrap}
 .links a{color:var(--sub);font-size:13px}
 .card-link{display:block;background:var(--card);border-radius:22px;padding:18px 20px;margin:0 0 12px;color:var(--ink);text-decoration:none}
 .card-link span{display:block;color:var(--sub);font-size:13px}
+body{word-break:keep-all}
+td:first-child{width:26%}
